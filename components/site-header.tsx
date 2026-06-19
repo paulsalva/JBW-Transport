@@ -49,7 +49,7 @@ export function SiteHeader() {
             ))}
             <a
               href="#contact"
-              className="rounded-full bg-green px-[18px] py-3 text-white shadow-[0_12px_25px_rgba(25,169,116,0.25)] transition-transform hover:-translate-y-0.5"
+              className="rounded-full bg-navy px-[18px] py-3 text-white shadow-[0_12px_25px_rgba(11,31,51,0.25)] transition-all hover:-translate-y-0.5 hover:bg-navy-deep"
             >
               Request a Quote
             </a>

@@ -24,7 +24,7 @@ const fields = [
 ] as const
 
 const inputClass =
-  "w-full min-h-[48px] rounded-[13px] border border-border-soft bg-[#fbfdff] px-[13px] py-[11px] text-foreground outline-none transition-shadow focus:border-blue focus:shadow-[0_0_0_4px_rgba(21,94,159,0.1)]"
+  "w-full min-h-[48px] rounded-[13px] border border-border-soft bg-[#fbfdff] px-[13px] py-[11px] text-foreground outline-none transition-shadow focus:border-navy focus:shadow-[0_0_0_4px_rgba(11,31,51,0.1)]"
 const labelClass = "mb-[7px] block text-[13px] font-extrabold text-navy"
 
 export function Contact() {
@@ -40,7 +40,7 @@ export function Contact() {
       <div className="mx-auto grid w-[min(1180px,calc(100%-40px))] grid-cols-[0.85fr_1.15fr] items-start gap-7 max-[920px]:grid-cols-1">
         {/* Contact panel */}
         <div className="rounded-[28px] bg-navy p-8 text-white shadow-[0_24px_70px_rgba(11,31,51,0.14)] max-[640px]:p-6">
-          <div className="mb-3 text-[13px] font-black uppercase tracking-[0.12em] text-[#8fd7ff]">Contact dispatch</div>
+          <div className="mb-3 text-[13px] font-black uppercase tracking-[0.12em] text-white/60">Contact dispatch</div>
           <h2 className="mb-4 text-[38px] font-black leading-[1.02] tracking-[-0.04em] text-white">
             Request a freight quote.
           </h2>
@@ -110,7 +110,7 @@ export function Contact() {
               </div>
               <button
                 type="submit"
-                className="mt-[18px] inline-flex min-h-[52px] cursor-pointer items-center justify-center rounded-full bg-blue px-[22px] font-extrabold text-white shadow-[0_15px_28px_rgba(21,94,159,0.25)] transition-transform hover:-translate-y-0.5 max-[640px]:w-full"
+                className="mt-[18px] inline-flex min-h-[52px] cursor-pointer items-center justify-center rounded-full bg-navy px-[22px] font-extrabold text-white shadow-[0_15px_28px_rgba(11,31,51,0.25)] transition-all hover:-translate-y-0.5 hover:bg-navy-deep max-[640px]:w-full"
               >
                 Submit Quote Request
               </button>

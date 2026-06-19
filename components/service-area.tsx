@@ -5,7 +5,7 @@ export function ServiceArea() {
     <section id="lanes" className="py-[92px] max-[640px]:py-[66px]">
       <div className="mx-auto grid w-[min(1180px,calc(100%-40px))] grid-cols-[0.92fr_1.08fr] items-center gap-[58px] max-[920px]:grid-cols-1">
         <div className="relative overflow-hidden rounded-[30px] bg-gradient-to-br from-navy to-[#123b5f] p-[34px] text-white shadow-[0_24px_70px_rgba(11,31,51,0.14)] max-[640px]:p-6">
-          <div className="pointer-events-none absolute -bottom-[120px] -right-20 h-[290px] w-[290px] rounded-full bg-green/30" />
+          <div className="pointer-events-none absolute -bottom-[120px] -right-20 h-[290px] w-[290px] rounded-full bg-white/10" />
           <h3 className="relative mb-3.5 text-[34px] font-bold leading-tight tracking-[-0.03em] text-white">
             Kenosha Based. Midwest Connected.
           </h3>
