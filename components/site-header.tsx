@@ -28,9 +28,9 @@ export function SiteHeader() {
             className="flex items-center gap-3 font-black tracking-tight text-navy"
           >
             <Image
-              src="/Logo-med.png"
+              src="/logo-long.png"
               alt="JBW Transportation Inc. logo"
-              width={180}
+              width={260}
               height={46}
               priority
               className="h-[46px] w-auto max-[640px]:h-10"
