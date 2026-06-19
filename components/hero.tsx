@@ -16,7 +16,7 @@ export function Hero() {
             Refrigerated freight carrier
           </div>
           <h1 className="mb-6 text-balance text-[clamp(43px,6vw,76px)] font-black leading-[0.95] tracking-[-0.07em] text-navy">
-            Reliable Reefer Freight From Southeast Wisconsin.
+            Reliable Freight From Southeast Wisconsin.
           </h1>
           <p className="mb-8 max-w-[620px] text-pretty text-xl text-muted">
             JBW Transportation Inc. provides interstate freight transportation for refrigerated food, fresh produce, and

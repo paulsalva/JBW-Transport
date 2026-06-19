@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 const footerLinks = [
   { href: "#services", label: "Services" },
   { href: "#capabilities", label: "Capabilities" },
@@ -12,8 +14,14 @@ export function SiteFooter() {
       <div className="mx-auto w-[min(1180px,calc(100%-40px))]">
         <div className="flex flex-wrap items-center justify-between gap-[30px]">
           <div>
-            <div className="text-[22px] font-black tracking-[-0.04em] text-white">JBW Transportation Inc.</div>
-            <div>Kenosha, Wisconsin freight carrier</div>
+            <Image
+              src="/Logo-med.png"
+              alt="JBW Transportation Inc. logo"
+              width={200}
+              height={52}
+              className="h-[52px] w-auto brightness-0 invert"
+            />
+            <div className="mt-3">Kenosha, Wisconsin freight carrier</div>
           </div>
           <div className="flex flex-wrap gap-5 text-sm font-bold">
             {footerLinks.map((link) => (
