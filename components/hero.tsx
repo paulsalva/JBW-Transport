@@ -8,11 +8,11 @@ const stats = [
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-[radial-gradient(circle_at_12%_18%,rgba(25,169,116,0.16),transparent_30%),radial-gradient(circle_at_82%_10%,rgba(21,94,159,0.22),transparent_32%),linear-gradient(135deg,#f8fcff_0%,#eaf5ff_50%,#ffffff_100%)] py-[86px] max-[920px]:py-[52px]">
+    <section className="relative overflow-hidden bg-[radial-gradient(circle_at_12%_18%,rgba(11,31,51,0.07),transparent_30%),radial-gradient(circle_at_82%_10%,rgba(11,31,51,0.1),transparent_32%),linear-gradient(135deg,#f7f9fb_0%,#eef1f5_50%,#ffffff_100%)] py-[86px] max-[920px]:py-[52px]">
       <div className="mx-auto grid w-[min(1180px,calc(100%-40px))] grid-cols-[1.03fr_0.97fr] items-center gap-[54px] max-[920px]:grid-cols-1">
         <div>
           <div className="mb-[22px] inline-flex items-center gap-[9px] rounded-full border border-blue/15 bg-blue/10 px-[13px] py-2 text-[13px] font-extrabold uppercase tracking-[0.08em] text-blue">
-            <span className="h-2 w-2 rounded-full bg-green shadow-[0_0_0_5px_rgba(25,169,116,0.13)]" />
+            <span className="h-2 w-2 rounded-full bg-navy shadow-[0_0_0_5px_rgba(11,31,51,0.13)]" />
             Refrigerated freight carrier
           </div>
           <h1 className="mb-6 text-balance text-[clamp(43px,6vw,76px)] font-black leading-[0.95] tracking-[-0.07em] text-navy">
@@ -26,7 +26,7 @@ export function Hero() {
           <div className="flex flex-wrap items-center gap-3.5">
             <a
               href="#contact"
-              className="inline-flex min-h-[52px] items-center justify-center rounded-full bg-blue px-[22px] font-extrabold text-white shadow-[0_15px_28px_rgba(21,94,159,0.25)] transition-transform hover:-translate-y-0.5 max-[640px]:w-full"
+              className="inline-flex min-h-[52px] items-center justify-center rounded-full bg-navy px-[22px] font-extrabold text-white shadow-[0_15px_28px_rgba(11,31,51,0.25)] transition-all hover:-translate-y-0.5 hover:bg-navy-deep max-[640px]:w-full"
             >
               Request Freight Quote
             </a>
