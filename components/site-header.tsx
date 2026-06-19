@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 const navLinks = [
   { href: "#services", label: "Services" },
@@ -26,17 +27,15 @@ export function SiteHeader() {
             aria-label="JBW Transportation home"
             className="flex items-center gap-3 font-black tracking-tight text-navy"
           >
-            <span className="grid h-[46px] w-[46px] place-items-center rounded-[14px] bg-gradient-to-br from-navy to-blue font-black tracking-tighter text-white shadow-[0_10px_25px_rgba(21,94,159,0.25)] max-[640px]:h-10 max-[640px]:w-10">
-              JBW
-            </span>
-            <span className="block">
-              <span className="block text-[19px] leading-[1.05] max-[640px]:text-base">
-                JBW Transportation Inc.
-              </span>
-              <small className="mt-0.5 block text-[11px] uppercase tracking-[0.12em] text-muted">
-                Freight Carrier
-              </small>
-            </span>
+            <Image
+              src="/Logo-med.png"
+              alt="JBW Transportation Inc. logo"
+              width={180}
+              height={46}
+              priority
+              className="h-[46px] w-auto max-[640px]:h-10"
+            />
+            <span className="sr-only">JBW Transportation Inc.</span>
           </Link>
 
           <nav

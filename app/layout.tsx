@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   description:
     "JBW Transportation Inc. is a Kenosha, Wisconsin based interstate freight carrier serving refrigerated food, fresh produce, and general freight needs.",
   generator: "v0.app",
+  icons: {
+    icon: "/Logo-med.png",
+    shortcut: "/Logo-med.png",
+    apple: "/Logo-med.png",
+  },
 }
 
 export const viewport: Viewport = {
