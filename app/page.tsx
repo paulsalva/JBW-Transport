@@ -6,6 +6,7 @@ import { Capabilities } from "@/components/capabilities"
 import { TruckBanner } from "@/components/truck-banner"
 import { ServiceArea } from "@/components/service-area"
 import { Careers } from "@/components/careers"
+import { About } from "@/components/about"
 import { Contact } from "@/components/contact"
 import { SiteFooter } from "@/components/site-footer"
 
@@ -21,6 +22,7 @@ export default function HomePage() {
         <TruckBanner />
         <ServiceArea />
         <Careers />
+        <About />
         <Contact />
       </main>
       <SiteFooter />

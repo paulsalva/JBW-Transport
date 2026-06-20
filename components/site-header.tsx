@@ -53,6 +53,12 @@ export function SiteHeader() {
             >
               Request a Quote
             </a>
+            <a
+              href="tel:+12625552222"
+              className="text-[22px] font-black tracking-tight text-navy transition-colors hover:text-blue"
+            >
+              (262) 555-2222
+            </a>
           </nav>
         </div>
       </header>
