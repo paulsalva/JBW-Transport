@@ -9,6 +9,7 @@ const navLinks = [
   { href: "#services", label: "Services" },
   { href: "#capabilities", label: "Capabilities" },
   { href: "#lanes", label: "Service Area" },
+  { href: "#clients", label: "Clients" },
   { href: "#careers", label: "Careers" },
   { href: "#about", label: "About" },
 ]
@@ -70,7 +71,7 @@ export function SiteHeader() {
           </nav>
 
           {/* Mobile controls */}
-          <div className="hidden shrink-0 items-center gap-2 max-[920px]:flex">
+          <div className="mr-1 hidden shrink-0 items-center gap-2 max-[920px]:flex">
             <a
               href="tel:+12625552222"
               aria-label="Call JBW Transportation at (262) 555-2222"
@@ -94,9 +95,9 @@ export function SiteHeader() {
         {open && (
           <nav
             aria-label="Mobile navigation"
-            className="hidden border-t border-border-soft bg-white px-5 py-4 max-[920px]:block"
+            className="hidden border-t border-border-soft bg-white px-6 py-6 max-[920px]:block"
           >
-            <div className="mx-auto flex w-[min(1180px,calc(100%-40px))] flex-col gap-1">
+            <div className="mx-auto flex w-[min(1180px,calc(100%-32px))] flex-col gap-1.5">
               {navLinks.map((link) => (
                 <a
                   key={link.href}
