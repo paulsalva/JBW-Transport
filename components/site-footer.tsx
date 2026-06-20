@@ -21,7 +21,15 @@ export function SiteFooter() {
               height={120}
               className="h-[96px] w-auto"
             />
-            <div className="mt-3">Kenosha, Wisconsin freight carrier</div>
+            <address className="mt-4 not-italic leading-relaxed">
+              <div className="font-bold text-navy">JBW Transportation Inc.</div>
+              <div>12400 Wilmot Rd Suite 3</div>
+              <div>Kenosha, WI US 53142</div>
+              <a href="tel:+12625552222" className="mt-1 inline-block font-bold text-navy transition-colors hover:text-blue">
+                (262) 555-2222
+              </a>
+            </address>
+            <div className="mt-3">Freight carrier servicing Southeast Wisconsin and beyond!</div>
           </div>
           <div className="flex flex-wrap gap-5 text-sm font-bold">
             {footerLinks.map((link) => (
@@ -32,8 +40,9 @@ export function SiteFooter() {
           </div>
         </div>
         <p           className="mt-[22px] max-w-[930px] border-t border-border-soft/80 pt-[18px] text-[13px] text-navy/50">
-          Draft website concept. Company services, equipment, lanes, insurance, safety language, phone number, email,
-          and hiring status should be confirmed directly with JBW Transportation Inc. before publication.
+          Draft website concept by Pipeline Media Co. Company services, equipment, lanes, insurance, safety language,
+          phone number, email, and hiring status should be confirmed directly with JBW Transportation Inc. before
+          publication.
         </p>
       </div>
     </footer>
