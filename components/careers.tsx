@@ -47,6 +47,15 @@ export function Careers() {
             </article>
           ))}
         </div>
+
+        <div className="mt-10 flex justify-center">
+          <a
+            href="#contact"
+            className="inline-flex min-h-[52px] items-center justify-center rounded-full bg-navy px-[26px] font-extrabold text-white shadow-[0_15px_28px_rgba(11,31,51,0.25)] transition-all hover:-translate-y-0.5 hover:bg-navy-deep max-[640px]:w-full"
+          >
+            Ask About Open Positions
+          </a>
+        </div>
       </div>
     </section>
   )
