@@ -19,9 +19,9 @@ export function Hero() {
             Reliable Freight From Southeast Wisconsin.
           </h1>
           <p className="mb-8 max-w-[620px] text-pretty text-xl text-muted">
-            JBW Transportation Inc. provides interstate freight transportation for refrigerated food, fresh produce, and
-            general freight. Based in Kenosha, WI, we help shippers and brokers move time-sensitive freight with clear
-            communication and dependable service.
+            <strong className="font-bold text-navy">JBW Transportation Inc.</strong> provides interstate freight
+            transportation for refrigerated food, fresh produce, and general freight. Based in Kenosha, WI, we help
+            shippers and brokers move time-sensitive freight with clear communication and dependable service.
           </p>
           <div className="flex flex-wrap items-center gap-3.5">
             <a
