@@ -3,6 +3,7 @@ import { Hero } from "@/components/hero"
 import { TrustStrip } from "@/components/trust-strip"
 import { Services } from "@/components/services"
 import { Capabilities } from "@/components/capabilities"
+import { TruckBanner } from "@/components/truck-banner"
 import { ServiceArea } from "@/components/service-area"
 import { Careers } from "@/components/careers"
 import { Contact } from "@/components/contact"
@@ -17,6 +18,7 @@ export default function HomePage() {
         <TrustStrip />
         <Services />
         <Capabilities />
+        <TruckBanner />
         <ServiceArea />
         <Careers />
         <Contact />
