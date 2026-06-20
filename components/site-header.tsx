@@ -9,8 +9,8 @@ const navLinks = [
   { href: "#services", label: "Services" },
   { href: "#capabilities", label: "Capabilities" },
   { href: "#lanes", label: "Service Area" },
-  { href: "#about", label: "About" },
   { href: "#careers", label: "Careers" },
+  { href: "#about", label: "About" },
 ]
 
 export function SiteHeader() {
@@ -70,11 +70,11 @@ export function SiteHeader() {
           </nav>
 
           {/* Mobile controls */}
-          <div className="hidden items-center gap-3 max-[920px]:flex">
+          <div className="hidden shrink-0 items-center gap-2 max-[920px]:flex">
             <a
               href="tel:+12625552222"
               aria-label="Call JBW Transportation at (262) 555-2222"
-              className="whitespace-nowrap text-sm font-black tracking-tight text-navy max-[400px]:text-[13px]"
+              className="whitespace-nowrap text-xs font-black tracking-tight text-navy max-[400px]:text-[11px]"
             >
               (262) 555-2222
             </a>
