@@ -32,7 +32,7 @@ export function SiteHeader() {
           <Link
             href="#home"
             aria-label="JBW Transportation home"
-            className="flex items-center gap-3 font-black tracking-tight text-navy"
+            className="flex shrink-0 items-center gap-3 font-black tracking-tight text-navy"
           >
             <Image
               src="/logo-long.png"
@@ -40,7 +40,7 @@ export function SiteHeader() {
               width={260}
               height={46}
               priority
-              className="h-[46px] w-auto max-[640px]:h-10"
+              className="h-[46px] w-auto shrink-0 max-[640px]:h-10"
             />
             <span className="sr-only">JBW Transportation Inc.</span>
           </Link>
